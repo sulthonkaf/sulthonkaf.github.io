@@ -1,75 +1,134 @@
+<!-- Sulthon's Upgraded Portfolio - Animated, Professional, and Valuable -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Sulthon Kaf - Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sulthon's Portfolio - Fullstack Developer, AI Explorer, and Future Technopreneur">
+  <meta property="og:title" content="Sulthon | Fullstack Developer">
+  <meta property="og:image" content="your-image-url.jpg">
+  <title>Sulthon | Developer & Innovator</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: #1a1a1a;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+      animation: fadeInDown 1s;
+    }
+    .section {
+      padding: 3rem 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .section-title {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+    .skill {
+      background: #e0e0e0;
+      padding: 1rem;
+      border-radius: 8px;
+      flex: 1 1 30%;
+      text-align: center;
+    }
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+    }
+    .project {
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      overflow: hidden;
+      background: white;
+    }
+    .project img {
+      width: 100%;
+    }
+    .contact {
+      text-align: center;
+    }
+    footer {
+      background: #111;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+  </style>
 </head>
 <body>
   <header>
-    <div class="container">
-      <img src="profile.jpg" alt="Sulthon Kaf" class="profile-img" />
-      <h1>Sulthon Kaf</h1>
-      <p class="tagline">Software Developer | Problem Solver | Tech Enthusiast</p>
-      <nav>
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-      </nav>
-    </div>
+    <h1>Sulthon</h1>
+    <p>Fullstack Developer | AI Explorer | Technopreneur</p>
   </header>
-  <main>
-    <section id="about" class="container">
-      <h2>About Me</h2>
-      <p>
-        Hi, I'm Sulthon Kaf. I love building impactful solutions through code.<br>
-        With a passion for learning and a drive for quality, I strive to deliver value in every project.
-      </p>
-    </section>
-    <section id="skills" class="container">
-      <h2>Skills</h2>
-      <ul class="skills-list">
-        <li>JavaScript (ES6+)</li>
-        <li>Python</li>
-        <li>HTML5 &amp; CSS3</li>
-        <li>React.js</li>
-        <li>Node.js</li>
-        <li>Git &amp; GitHub</li>
-        <li>REST APIs</li>
-        <li>Problem Solving</li>
-      </ul>
-    </section>
-    <section id="projects" class="container">
-      <h2>Projects</h2>
-      <div class="project-card">
-        <h3><a href="https://github.com/sulthonkaf/your-project1" target="_blank">Project One</a></h3>
-        <p>A brief description of your project, what problem it solves, and technologies used.</p>
-      </div>
-      <div class="project-card">
-        <h3><a href="https://github.com/sulthonkaf/your-project2" target="_blank">Project Two</a></h3>
-        <p>Another project description, highlighting unique features or results.</p>
-      </div>
-      <!-- Add more project cards as needed -->
-    </section>
-    <section id="contact" class="container">
-      <h2>Contact</h2>
-      <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
-      <div class="social-links">
-        <a href="https://github.com/sulthonkaf" target="_blank">GitHub</a>
-        <a href="https://linkedin.com/in/your-profile" target="_blank">LinkedIn</a>
-        <!-- Add more social links as needed -->
-      </div>
-    </section>
-  </main>
-  <footer>
-    <div class="container">
-      &copy; 2025 Sulthon Kaf. All rights reserved.
+
+  <section class="section">
+    <h2 class="section-title">About Me</h2>
+    <p>Hi, I'm Sulthon. I'm passionate about crafting powerful digital experiences that merge clean design with intelligent engineering. With a focus on fullstack development and AI-driven innovation, I aim to build tools that bring harmony and utility to the world.</p>
+    <a href="resume.pdf" target="_blank">Download CV</a>
+  </section>
+
+  <section class="section">
+    <h2 class="section-title">Skills</h2>
+    <div class="skills">
+      <div class="skill">JavaScript</div>
+      <div class="skill">Python</div>
+      <div class="skill">Laravel</div>
+      <div class="skill">React</div>
+      <div class="skill">Docker</div>
+      <div class="skill">Communication</div>
     </div>
+  </section>
+
+  <section class="section">
+    <h2 class="section-title">Projects</h2>
+    <div class="projects">
+      <div class="project">
+        <img src="project1.jpg" alt="Project 1">
+        <div class="content">
+          <h3>Plantopia</h3>
+          <p>Green-tech dashboard for ecosystem & plant wellness, built with React + Laravel.</p>
+          <a href="#">GitHub</a> | <a href="#">Live Demo</a>
+        </div>
+      </div>
+      <div class="project">
+        <img src="project2.jpg" alt="Project 2">
+        <div class="content">
+          <h3>INFLOW</h3>
+          <p>AI-powered productivity & wellness tracker with emotion recognition.</p>
+          <a href="#">GitHub</a> | <a href="#">Live Demo</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section contact">
+    <h2 class="section-title">Contact Me</h2>
+    <p>Let's collaborate and build the future. Reach out!</p>
+    <a href="mailto:sulthon@example.com">Email Me</a>
+    <div>
+      <a href="#"><i class="fab fa-github"></i></a>
+      <a href="#"><i class="fab fa-linkedin"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Sulthon. All Rights Reserved.</p>
   </footer>
 </body>
 </html>
