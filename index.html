@@ -3,33 +3,28 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#0b1220" />
-    <meta name="description" content="Portfolio of Sulthon Kaffaah Al Farizzi — a full-stack engineer and technical product builder working across web platforms, AI systems, and digital health." />
+    <meta name="theme-color" content="#050509" />
+    <meta name="color-scheme" content="dark" />
+    <meta name="description" content="Portfolio of Sulthon Kaffaah Al Farizzi — a full-stack engineer and technical product builder shipping dependable web platforms, applied AI, and digital health systems." />
     <meta name="author" content="Sulthon Kaffaah Al Farizzi" />
-    <meta name="robots" content="index, follow" />
+    <meta name="robots" content="index, follow, max-image-preview:large" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://sulthonkaf.github.io/" />
+    <meta property="og:site_name" content="Sulthon KAF" />
     <meta property="og:title" content="Sulthon KAF — Full-stack Engineer & Product Builder" />
-    <meta property="og:description" content="Building dependable digital products at the intersection of engineering, AI, and human needs." />
+    <meta property="og:description" content="Engineering dependable digital products at the intersection of software, AI, and human needs." />
     <meta property="og:image" content="https://avatars.githubusercontent.com/u/177893016?v=4&amp;size=1200" />
     <meta property="og:image:alt" content="Portrait of Sulthon Kaffaah Al Farizzi" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Sulthon KAF — Full-stack Engineer & Product Builder" />
-    <meta name="twitter:description" content="Selected work in full-stack platforms, AI systems, and digital health." />
+    <meta name="twitter:description" content="Selected work in full-stack platforms, applied AI, and digital health." />
     <meta name="twitter:image" content="https://avatars.githubusercontent.com/u/177893016?v=4&amp;size=1200" />
     <link rel="canonical" href="https://sulthonkaf.github.io/" />
     <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
     <link rel="manifest" href="site.webmanifest" />
+    <link rel="preconnect" href="https://avatars.githubusercontent.com" />
     <link rel="stylesheet" href="style.css" />
     <title>Sulthon KAF — Full-stack Engineer & Product Builder</title>
-    <script>
-      document.documentElement.classList.add("js");
-      try {
-        const savedTheme = localStorage.getItem("theme");
-        const systemDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
-        document.documentElement.dataset.theme = savedTheme || (systemDark ? "dark" : "light");
-      } catch (_) {}
-    </script>
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -47,147 +42,146 @@
   </head>
   <body>
     <a class="skip-link" href="#main-content">Skip to main content</a>
+    <div class="noise" aria-hidden="true"></div>
+    <div class="scroll-progress" data-scroll-progress aria-hidden="true"></div>
+
     <header class="site-header" data-header>
-      <div class="shell nav-wrap">
+      <div class="shell nav-shell">
         <a class="brand" href="#top" aria-label="Sulthon KAF, back to top">
-          <span class="brand-mark" aria-hidden="true">S/</span><span class="brand-name">Sulthon KAF</span>
+          <span class="brand-symbol" aria-hidden="true">S/</span>
+          <span class="brand-copy"><strong>Sulthon KAF</strong><small>Engineer · Builder</small></span>
         </a>
         <nav class="desktop-nav" aria-label="Primary navigation">
-          <a href="#work">Work</a><a href="#about">About</a><a href="#capabilities">Capabilities</a><a href="#contact">Contact</a>
+          <a href="#work">Work</a><a href="#approach">Approach</a><a href="#about">About</a><a href="#contact">Contact</a>
         </nav>
-        <div class="nav-actions">
-          <button class="icon-button" type="button" data-theme-toggle aria-label="Switch color theme">
-            <svg class="sun-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.42 1.42M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.42-1.41M17.66 6.34l1.41-1.41"></path></svg>
-            <svg class="moon-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3 7 7 0 0 0 21 12.8Z"></path></svg>
-          </button>
+        <div class="header-end">
+          <span class="availability-chip"><i aria-hidden="true"></i> Available for opportunities</span>
           <button class="menu-button" type="button" data-menu-toggle aria-expanded="false" aria-controls="mobile-menu">
             <span class="sr-only">Open navigation</span><span></span><span></span>
           </button>
         </div>
       </div>
       <nav class="mobile-nav" id="mobile-menu" data-mobile-menu aria-label="Mobile navigation">
-        <a href="#work">Work</a><a href="#about">About</a><a href="#capabilities">Capabilities</a><a href="#contact">Contact</a>
+        <a href="#work"><span>01</span> Work</a><a href="#approach"><span>02</span> Approach</a><a href="#about"><span>03</span> About</a><a href="#contact"><span>04</span> Contact</a>
       </nav>
     </header>
 
     <main id="main-content">
       <section class="hero" id="top" aria-labelledby="hero-title">
-        <div class="hero-grid" aria-hidden="true"></div><div class="hero-orb hero-orb-one" aria-hidden="true"></div><div class="hero-orb hero-orb-two" aria-hidden="true"></div>
+        <div class="aurora aurora-one" aria-hidden="true"></div><div class="aurora aurora-two" aria-hidden="true"></div><div class="grid-field" aria-hidden="true"></div>
         <div class="shell hero-layout">
           <div class="hero-copy reveal">
-            <p class="eyebrow"><span></span> Full-stack engineering · AI systems · Product leadership</p>
-            <h1 id="hero-title">I build dependable digital products that turn <em>complexity into clarity.</em></h1>
-            <p class="hero-intro">I’m Sulthon, an Indonesia-based engineer who connects product thinking, scalable software, and responsible AI to solve real operational and human problems.</p>
+            <p class="eyebrow"><span>Full-stack engineer</span><b aria-hidden="true"></b><span>Indonesia · UTC+7</span></p>
+            <h1 id="hero-title">I turn hard problems into <span>software people can trust.</span></h1>
+            <p class="hero-intro">I’m Sulthon—an engineer and technical product builder connecting product clarity, scalable systems, and responsible AI from first decision to production.</p>
             <div class="hero-actions">
               <a class="button button-primary" href="#work">Explore selected work <span aria-hidden="true">↘</span></a>
-              <a class="button button-secondary" href="https://www.linkedin.com/in/sulthonkaf" target="_blank" rel="noreferrer">Connect on LinkedIn <span aria-hidden="true">↗</span></a>
+              <a class="button button-ghost" href="https://www.linkedin.com/in/sulthonkaf" target="_blank" rel="noreferrer">Let’s connect <span aria-hidden="true">↗</span></a>
             </div>
-            <p class="availability"><span aria-hidden="true"></span> Open to full-stack and product engineering opportunities</p>
+            <dl class="hero-proof" aria-label="Selected proof points">
+              <div><dt>1,669</dt><dd>Athletes supported</dd></div><div><dt>13.7K</dt><dd>Research samples</dd></div><div><dt>End-to-end</dt><dd>Discovery to delivery</dd></div>
+            </dl>
           </div>
-          <aside class="hero-profile reveal" aria-label="Profile summary">
-            <div class="profile-visual">
-              <img src="https://avatars.githubusercontent.com/u/177893016?v=4&amp;size=560" alt="Sulthon Kaffaah Al Farizzi" width="560" height="560" fetchpriority="high" />
-              <span class="profile-badge">Indonesia<br /><strong>UTC+7</strong></span>
+          <aside class="hero-stage reveal" aria-label="Profile overview">
+            <div class="stage-ring stage-ring-one" aria-hidden="true"></div><div class="stage-ring stage-ring-two" aria-hidden="true"></div>
+            <div class="profile-card">
+              <div class="profile-image-wrap"><img src="https://avatars.githubusercontent.com/u/177893016?v=4&amp;size=640" alt="Sulthon Kaffaah Al Farizzi" width="640" height="640" fetchpriority="high" decoding="async" /><div class="profile-gradient" aria-hidden="true"></div></div>
+              <div class="profile-card-copy"><span>Currently focused on</span><strong>Reliable platforms, applied AI, and digital health.</strong></div>
             </div>
-            <div class="profile-meta"><p>Currently focused on</p><strong>Robust web platforms, applied AI, and digital health systems.</strong></div>
+            <div class="floating-card floating-card-top" aria-hidden="true"><span>01</span><strong>Product clarity</strong><small>before complexity</small></div>
+            <div class="floating-card floating-card-bottom" aria-hidden="true"><i></i><strong>Production minded</strong><small>by default</small></div>
           </aside>
         </div>
-        <div class="shell proof-grid reveal" aria-label="Selected proof points">
-          <div class="proof-item"><strong>1,669</strong><span>athletes supported by an event platform</span></div>
-          <div class="proof-item"><strong>13.7K</strong><span>multimodal research samples</span></div>
-          <div class="proof-item"><strong>End-to-end</strong><span>from product discovery to deployment</span></div>
-        </div>
+        <a class="scroll-cue" href="#work"><span>Scroll to explore</span><i aria-hidden="true"></i></a>
       </section>
 
-      <section class="section section-work" id="work" aria-labelledby="work-title">
+      <div class="toolbelt" aria-label="Technology toolkit">
+        <div class="toolbelt-track">
+          <span>Next.js</span><i></i><span>TypeScript</span><i></i><span>Laravel</span><i></i><span>PostgreSQL</span><i></i><span>PyTorch</span><i></i><span>FastAPI</span><i></i><span>Docker</span><i></i><span>Cloudflare</span>
+          <span aria-hidden="true">Next.js</span><i aria-hidden="true"></i><span aria-hidden="true">TypeScript</span><i aria-hidden="true"></i><span aria-hidden="true">Laravel</span><i aria-hidden="true"></i><span aria-hidden="true">PostgreSQL</span><i aria-hidden="true"></i><span aria-hidden="true">PyTorch</span><i aria-hidden="true"></i><span aria-hidden="true">FastAPI</span><i aria-hidden="true"></i><span aria-hidden="true">Docker</span><i aria-hidden="true"></i><span aria-hidden="true">Cloudflare</span>
+        </div>
+      </div>
+
+      <section class="section work-section" id="work" aria-labelledby="work-title">
         <div class="shell">
           <div class="section-heading reveal">
-            <div><p class="section-index">01 / Selected work</p><h2 id="work-title">Systems built around real outcomes.</h2></div>
-            <p>A focused selection of platforms and research where I worked across architecture, implementation, product decisions, and delivery.</p>
+            <div><p class="section-label">01 · Selected work</p><h2 id="work-title">Systems measured by what they enable.</h2></div>
+            <p>A focused set of platforms and research where I contributed across architecture, implementation, product decisions, and delivery.</p>
           </div>
-          <div class="case-list">
-            <article class="case-card case-blue reveal">
-              <div class="case-number" aria-hidden="true">01</div>
-              <div class="case-main">
-                <div class="case-topline"><span>Event operations platform</span><span>Full-stack · Product delivery</span></div>
-                <h3>Muhammadiyah Games 2026</h3>
-                <p>A multi-role platform for contingent onboarding, athlete registration, payments, document verification, and event administration.</p>
-                <ul class="metric-list" aria-label="Project outcomes"><li><strong>419</strong><span>contingents</span></li><li><strong>355</strong><span>registrations</span></li><li><strong>339</strong><span>payment records</span></li></ul>
-              </div>
-              <div class="case-footer"><p>Next.js 16 · TypeScript · Laravel 12 · PostgreSQL · Docker · Cloudflare R2</p><span class="case-status">Private production system</span></div>
+          <div class="project-grid">
+            <article class="project-card project-featured reveal">
+              <div class="project-glow project-glow-blue" aria-hidden="true"></div>
+              <div class="project-head"><span class="project-index">01 / Platform</span><span class="status-pill"><i></i> Production</span></div>
+              <div class="project-body"><p class="project-kicker">Event operations · Full-stack delivery</p><h3>Muhammadiyah Games 2026</h3><p>A multi-role platform covering contingent onboarding, athlete registration, payments, document verification, and event administration.</p></div>
+              <dl class="project-metrics"><div><dt>419</dt><dd>contingents</dd></div><div><dt>355</dt><dd>registrations</dd></div><div><dt>339</dt><dd>payment records</dd></div></dl>
+              <p class="stack">Next.js 16 · TypeScript · Laravel 12 · PostgreSQL · Docker · Cloudflare R2</p>
             </article>
-            <article class="case-card case-violet reveal">
-              <div class="case-number" aria-hidden="true">02</div>
-              <div class="case-main">
-                <div class="case-topline"><span>Multimodal AI research</span><span>Research · Full-stack</span></div>
-                <h3>SoulCare</h3>
-                <p>A mental-health support research prototype that combines text, audio, and visual emotion signals using Transformer-based multimodal fusion.</p>
-                <ul class="metric-list" aria-label="Project outcomes"><li><strong>54.90%</strong><span>weighted F1</span></li><li><strong>3 modes</strong><span>text · audio · visual</span></li><li><strong>7 classes</strong><span>emotion recognition</span></li></ul>
-              </div>
-              <div class="case-footer"><p>PyTorch · Transformers · RoBERTa · wav2vec 2.0 · EfficientNet · FastAPI</p><span class="case-status">Undergraduate research</span></div>
+            <article class="project-card reveal">
+              <div class="project-glow project-glow-purple" aria-hidden="true"></div>
+              <div class="project-head"><span class="project-index">02 / AI research</span><span class="status-pill">Research</span></div>
+              <div class="project-body"><p class="project-kicker">Multimodal intelligence</p><h3>SoulCare</h3><p>A mental-health support prototype combining text, audio, and visual emotion signals with Transformer-based fusion.</p></div>
+              <dl class="project-metrics compact"><div><dt>54.90%</dt><dd>weighted F1</dd></div><div><dt>3</dt><dd>modalities</dd></div><div><dt>7</dt><dd>emotion classes</dd></div></dl>
+              <p class="stack">PyTorch · Transformers · RoBERTa · wav2vec 2.0 · FastAPI</p>
             </article>
-            <article class="case-card case-teal reveal">
-              <div class="case-number" aria-hidden="true">03</div>
-              <div class="case-main">
-                <div class="case-topline"><span>Digital health platform</span><span>Technical direction · Architecture</span></div>
-                <h3>MomSync</h3>
-                <p>An end-to-end maternal health platform concept connecting wearable data, monitoring workflows, risk visibility, and structured care support.</p>
-                <ul class="metric-list" aria-label="Project scope"><li><strong>Web</strong><span>care dashboard</span></li><li><strong>API</strong><span>typed service layer</span></li><li><strong>Data</strong><span>wearable integration</span></li></ul>
-              </div>
-              <div class="case-footer"><p>Next.js · TypeScript · NestJS · Prisma · PostgreSQL · Zod</p><span class="case-status">Product prototype</span></div>
+            <article class="project-card reveal">
+              <div class="project-glow project-glow-cyan" aria-hidden="true"></div>
+              <div class="project-head"><span class="project-index">03 / Digital health</span><span class="status-pill">Prototype</span></div>
+              <div class="project-body"><p class="project-kicker">Technical direction · Architecture</p><h3>MomSync</h3><p>An end-to-end maternal health concept connecting wearable data, monitoring workflows, risk visibility, and structured care support.</p></div>
+              <dl class="project-metrics compact"><div><dt>Web</dt><dd>care dashboard</dd></div><div><dt>API</dt><dd>typed services</dd></div><div><dt>Data</dt><dd>wearable flow</dd></div></dl>
+              <p class="stack">Next.js · TypeScript · NestJS · Prisma · PostgreSQL · Zod</p>
             </article>
           </div>
-          <div class="more-work reveal">
-            <div><p class="section-index">Open-source & applied learning</p><h3>More engineering work</h3></div>
-            <div class="repo-links">
-              <a href="https://github.com/sulthonkaf/plant-disease-detection" target="_blank" rel="noreferrer"><span>Plant Disease Detection API</span><small>FastAPI · CNN</small><b aria-hidden="true">↗</b></a>
-              <a href="https://github.com/sulthonkaf/housing-price-prediction" target="_blank" rel="noreferrer"><span>Housing Model Benchmark</span><small>MLP · XGBoost · Scikit-learn</small><b aria-hidden="true">↗</b></a>
-              <a href="https://github.com/sulthonkaf/ETL" target="_blank" rel="noreferrer"><span>Fashion Data Pipeline</span><small>Python · ETL · PostgreSQL</small><b aria-hidden="true">↗</b></a>
+          <div class="open-source reveal">
+            <div class="open-source-intro"><p class="section-label">Open source & applied learning</p><h3>More experiments, fewer black boxes.</h3></div>
+            <div class="repo-list">
+              <a href="https://github.com/sulthonkaf/plant-disease-detection" target="_blank" rel="noreferrer"><span class="repo-number">01</span><span><strong>Plant Disease Detection API</strong><small>FastAPI · CNN</small></span><b aria-hidden="true">↗</b></a>
+              <a href="https://github.com/sulthonkaf/housing-price-prediction" target="_blank" rel="noreferrer"><span class="repo-number">02</span><span><strong>Housing Model Benchmark</strong><small>MLP · XGBoost · Scikit-learn</small></span><b aria-hidden="true">↗</b></a>
+              <a href="https://github.com/sulthonkaf/ETL" target="_blank" rel="noreferrer"><span class="repo-number">03</span><span><strong>Fashion Data Pipeline</strong><small>Python · ETL · PostgreSQL</small></span><b aria-hidden="true">↗</b></a>
             </div>
           </div>
         </div>
       </section>
 
-      <section class="section section-about" id="about" aria-labelledby="about-title">
-        <div class="shell about-layout">
-          <div class="about-sticky reveal"><p class="section-index">02 / About</p><h2 id="about-title">Engineering is only valuable when it improves the system around it.</h2></div>
-          <div class="about-copy reveal">
-            <p class="lead">My work sits between software engineering, product strategy, and human-centered problem solving. I care about how a product behaves in production—not just how it looks in a demo.</p>
-            <p>I have contributed across technical leadership, project coordination, full-stack implementation, AI experimentation, and deployment. That range helps me translate goals between users, business stakeholders, and engineering teams without losing the details that make systems dependable.</p>
-            <p>I’m especially interested in products that strengthen health, education, public systems, and operational decision-making. My standard is simple: useful, understandable, secure, and built to keep improving.</p>
-            <blockquote>“Build with clarity. Operate with responsibility. Improve what matters.”</blockquote>
-          </div>
+      <section class="section approach-section" id="approach" aria-labelledby="approach-title">
+        <div class="aurora aurora-three" aria-hidden="true"></div>
+        <div class="shell approach-layout">
+          <div class="approach-copy reveal"><p class="section-label">02 · How I work</p><h2 id="approach-title">Clarity compounds.</h2><p>Good delivery is less about heroic coding and more about making constraints, decisions, risks, and outcomes visible early.</p><blockquote>“Build with clarity. Operate with responsibility. Improve what matters.”</blockquote></div>
+          <ol class="process-list">
+            <li class="reveal"><span>01</span><div><h3>Understand the system</h3><p>Map users, workflows, constraints, and the outcome worth measuring.</p></div></li>
+            <li class="reveal"><span>02</span><div><h3>Structure the decisions</h3><p>Shape interfaces, data, architecture, tradeoffs, and a delivery path.</p></div></li>
+            <li class="reveal"><span>03</span><div><h3>Ship in evidence</h3><p>Deliver useful slices, validate assumptions, and keep progress legible.</p></div></li>
+            <li class="reveal"><span>04</span><div><h3>Operate and improve</h3><p>Document, observe, learn, and strengthen the product after release.</p></div></li>
+          </ol>
         </div>
       </section>
 
-      <section class="section" id="capabilities" aria-labelledby="capabilities-title">
+      <section class="section capability-section" aria-labelledby="capability-title">
         <div class="shell">
-          <div class="section-heading reveal">
-            <div><p class="section-index">03 / Capabilities</p><h2 id="capabilities-title">From ambiguous brief to operated system.</h2></div>
-            <p>I combine hands-on implementation with the structure needed to make delivery legible, testable, and maintainable.</p>
-          </div>
+          <div class="section-heading reveal"><div><p class="section-label">03 · Capabilities</p><h2 id="capability-title">From ambiguous brief to operated system.</h2></div><p>Hands-on engineering paired with the product and operational thinking needed to keep delivery useful.</p></div>
           <div class="capability-grid">
-            <article class="capability-card reveal"><span class="capability-icon" aria-hidden="true">01</span><h3>Product & systems</h3><p>Requirements, workflow mapping, RBAC, architecture, API contracts, and technical roadmaps.</p><ul><li>Discovery & scoping</li><li>System design</li><li>Technical leadership</li></ul></article>
-            <article class="capability-card reveal"><span class="capability-icon" aria-hidden="true">02</span><h3>Full-stack engineering</h3><p>Accessible interfaces, reliable APIs, data modeling, integrations, and production-aware delivery.</p><ul><li>Next.js & TypeScript</li><li>Laravel & NestJS</li><li>PostgreSQL & REST APIs</li></ul></article>
-            <article class="capability-card reveal"><span class="capability-icon" aria-hidden="true">03</span><h3>Applied AI</h3><p>From reproducible experiments and model evaluation to practical inference services and user workflows.</p><ul><li>PyTorch & Transformers</li><li>Multimodal ML</li><li>FastAPI deployment</li></ul></article>
-            <article class="capability-card reveal"><span class="capability-icon" aria-hidden="true">04</span><h3>Delivery & operations</h3><p>Deployment, observability thinking, documentation, testing, and continuous improvement after release.</p><ul><li>Docker & cloud deployment</li><li>Git-based workflows</li><li>Runbooks & quality gates</li></ul></article>
-          </div>
-          <div class="process reveal" aria-label="Working process">
-            <p class="section-index">How I work</p>
-            <ol><li><span>01</span><strong>Understand</strong><small>users, constraints, outcomes</small></li><li><span>02</span><strong>Structure</strong><small>flows, architecture, risks</small></li><li><span>03</span><strong>Deliver</strong><small>incrementally, visibly, safely</small></li><li><span>04</span><strong>Improve</strong><small>measure, learn, compound</small></li></ol>
+            <article class="capability-card reveal"><span>01</span><h3>Product & systems</h3><p>Discovery, workflow mapping, RBAC, architecture, API contracts, and technical roadmaps.</p><ul><li>System design</li><li>Technical leadership</li><li>Product scoping</li></ul></article>
+            <article class="capability-card reveal"><span>02</span><h3>Full-stack engineering</h3><p>Accessible interfaces, reliable APIs, data modeling, integrations, and production-aware delivery.</p><ul><li>Next.js</li><li>TypeScript</li><li>Laravel & NestJS</li></ul></article>
+            <article class="capability-card reveal"><span>03</span><h3>Applied AI</h3><p>Reproducible experiments, model evaluation, inference services, and human-centered AI workflows.</p><ul><li>PyTorch</li><li>Transformers</li><li>Multimodal ML</li></ul></article>
+            <article class="capability-card reveal"><span>04</span><h3>Delivery & operations</h3><p>Deployment, quality gates, observability thinking, runbooks, and continuous improvement.</p><ul><li>Docker</li><li>Cloud delivery</li><li>Documentation</li></ul></article>
           </div>
         </div>
       </section>
 
-      <section class="section contact-section" id="contact" aria-labelledby="contact-title">
-        <div class="shell contact-card reveal">
-          <p class="section-index">04 / Let’s work together</p><h2 id="contact-title">Have a meaningful problem worth solving?</h2>
-          <p>I’m open to full-stack engineering, technical product, and applied AI opportunities where thoughtful execution and long-term value matter.</p>
-          <div class="contact-actions"><a class="button button-light" href="https://www.linkedin.com/in/sulthonkaf" target="_blank" rel="noreferrer">Start a conversation <span aria-hidden="true">↗</span></a><a class="text-link" href="https://github.com/sulthonkaf" target="_blank" rel="noreferrer">View GitHub profile <span aria-hidden="true">↗</span></a></div>
+      <section class="section about-section" id="about" aria-labelledby="about-title">
+        <div class="shell about-layout">
+          <div class="about-profile reveal"><div class="about-photo"><img src="https://avatars.githubusercontent.com/u/177893016?v=4&amp;size=720" alt="Sulthon Kaffaah Al Farizzi" width="720" height="720" loading="lazy" decoding="async" /></div><div class="about-caption"><span>Based in Indonesia</span><strong>Building for meaningful, real-world outcomes.</strong></div></div>
+          <div class="about-copy reveal"><p class="section-label">04 · About</p><h2 id="about-title">Engineering is valuable when it improves the system around it.</h2><p class="lead">My work sits between software engineering, product strategy, and human-centered problem solving.</p><p>I’ve contributed across technical leadership, project coordination, full-stack implementation, AI experimentation, and deployment. That range helps me translate between users, business stakeholders, and engineering teams without losing the details that make systems dependable.</p><p>I’m especially interested in products that strengthen health, education, public systems, and operational decision-making.</p><div class="principles" aria-label="Working principles"><span>Useful</span><span>Understandable</span><span>Secure</span><span>Built to improve</span></div></div>
         </div>
+      </section>
+
+      <section class="contact-section" id="contact" aria-labelledby="contact-title">
+        <div class="contact-orb" aria-hidden="true"></div>
+        <div class="shell contact-inner reveal"><p class="section-label">05 · Let’s build something useful</p><h2 id="contact-title">Have a meaningful problem worth solving?</h2><p>I’m open to full-stack engineering, technical product, and applied AI opportunities where thoughtful execution and long-term value matter.</p><div class="contact-actions"><a class="button button-light" href="https://www.linkedin.com/in/sulthonkaf" target="_blank" rel="noreferrer">Start a conversation <span aria-hidden="true">↗</span></a><a class="text-link" href="https://github.com/sulthonkaf" target="_blank" rel="noreferrer">View GitHub profile <span aria-hidden="true">↗</span></a></div></div>
       </section>
     </main>
-    <footer class="site-footer"><div class="shell footer-layout"><p>© <span data-year>2026</span> Sulthon Kaffaah Al Farizzi.</p><p>Designed and built with intention.</p><a href="#top">Back to top <span aria-hidden="true">↑</span></a></div></footer>
+
+    <footer class="site-footer"><div class="shell footer-layout"><p>© <span data-year>2026</span> Sulthon Kaffaah Al Farizzi.</p><p>Engineered with intent. No frameworks, no tracking.</p><a href="#top">Back to top <span aria-hidden="true">↑</span></a></div></footer>
+    <noscript><style>.reveal{opacity:1!important;transform:none!important}</style></noscript>
     <script src="script.js" defer></script>
   </body>
 </html>

@@ -14,7 +14,7 @@ Personal portfolio for **Sulthon Kaffaah Al Farizzi**, published with GitHub Pag
 The site intentionally uses a zero-build static architecture:
 
 - Semantic HTML5
-- Modern responsive CSS with light and dark themes
+- Modern responsive CSS with a dark, cinematic visual system
 - Small dependency-free JavaScript enhancement layer
 - Native GitHub Pages deployment
 - Dependency-free validation in GitHub Actions
@@ -32,8 +32,9 @@ Then open `http://localhost:8000`.
 ## Quality principles
 
 - Progressive enhancement: core content remains available without JavaScript
-- Accessibility: keyboard focus, semantic landmarks, reduced-motion support, and high-contrast themes
-- Performance: no framework runtime, icon library, or animation dependency
+- Accessibility: keyboard focus, semantic landmarks, reduced-motion support, and forced-colors fallbacks
+- Resilience: all content renders without JavaScript or WebGL; motion is progressive enhancement
+- Performance: no framework runtime, web font, icon library, animation dependency, or tracking script
 - Discoverability: canonical URL, Open Graph metadata, structured data, robots policy, and sitemap
 
 ## Updating content

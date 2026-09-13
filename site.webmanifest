@@ -3,7 +3,7 @@
   "short_name": "Sulthon KAF",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#f4f5f2",
-  "theme_color": "#0b1220",
+  "background_color": "#050509",
+  "theme_color": "#050509",
   "icons": [{ "src": "assets/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }]
 }
