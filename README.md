@@ -17,6 +17,7 @@ The site intentionally uses a zero-build static architecture:
 - Modern responsive CSS with light and dark themes
 - Small dependency-free JavaScript enhancement layer
 - Native GitHub Pages deployment
+- Dependency-free validation in GitHub Actions
 
 This keeps the site fast, portable, auditable, and easy to maintain.
 
@@ -41,6 +42,13 @@ Then open `http://localhost:8000`.
 - Adjust visual tokens and layout in `style.css`
 - Keep interactions in `script.js` small and optional
 - Update the sitemap `lastmod` value after meaningful releases
+
+Run the same structural validation used in CI with:
+
+```bash
+python scripts/validate.py
+node --check script.js
+```
 
 ## License
 
