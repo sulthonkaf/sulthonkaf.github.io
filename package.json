@@ -1,0 +1,43 @@
+{
+  "name": "sulthonkaf-portfolio",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Evidence-led engineering portfolio for Sulthon Kaffaah Al Farizzi.",
+  "scripts": {
+    "dev": "next dev",
+    "prebuild": "node scripts/clean-generated.mjs",
+    "build": "next build",
+    "build:pages": "npm run build && node scripts/sync-export.mjs",
+    "lint": "eslint . --max-warnings=0",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit",
+    "validate:export": "node scripts/validate-export.mjs",
+    "check": "npm run typecheck && npm run lint && npm run test && npm run build && npm run validate:export"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "dependencies": {
+    "@radix-ui/react-dialog": "^1.1.23",
+    "clsx": "^2.1.1",
+    "lucide-react": "^1.46.0",
+    "motion": "^13.2.0",
+    "next": "^16.3.5",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^7.0.1",
+    "@testing-library/react": "^16.3.3",
+    "@types/node": "^26.5.1",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "eslint": "^9.39.5",
+    "eslint-config-next": "^16.3.5",
+    "jsdom": "^30.0.1",
+    "typescript": "^6.0.3",
+    "vitest": "^5.0.0"
+  }
+}

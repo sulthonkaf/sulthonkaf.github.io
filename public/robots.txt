@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sulthonkaf.github.io/sitemap.xml

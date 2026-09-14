@@ -1,0 +1,5 @@
+/_next/** -diff whitespace=-trailing-space linguist-generated=true
+/_not-found/** -diff whitespace=-trailing-space linguist-generated=true
+/404/** -diff whitespace=-trailing-space linguist-generated=true
+/__next.*.txt -diff whitespace=-trailing-space linguist-generated=true
+/index.txt -diff whitespace=-trailing-space linguist-generated=true

@@ -18,30 +18,32 @@ request instead of treating every resource as mandatory reading.
   attributes, and review third-party resources before embedding them.
 - [ ] **UX and accessibility:** preserve semantic landmarks, keyboard access,
   visible focus, readable contrast, and reduced-motion behavior.
-- [ ] **Performance:** justify every new runtime dependency and large asset;
-  retain the zero-build approach unless measured requirements demand a change.
+- [ ] **Performance:** justify every runtime dependency and large asset; retain
+  static export unless measured product requirements demand a server.
 - [ ] **SEO:** keep the title, description, canonical URL, social metadata,
-  `robots.txt`, and `sitemap.xml` consistent.
-- [ ] **Operations:** run the local quality commands and preview the site with
-  JavaScript enabled and disabled.
+  structured data, `robots.txt`, and `sitemap.xml` consistent.
+- [ ] **Operations:** run the automated quality suite and review the exported
+  site with JavaScript enabled and disabled.
 
 ## Verification example
 
 ```bash
-python scripts/validate.py
-node --check script.js
-python -m http.server 8000
+npm ci
+npm run check
+npm run dev
 ```
 
-After starting the server, open `http://localhost:8000` and verify the page at
-mobile and desktop widths. The automated checks cover structural invariants;
-the browser review covers behavior and presentation that static validation
-cannot prove.
+After starting the development server, open `http://localhost:3000` and verify
+the page at mobile and desktop widths. The automated checks cover structural
+invariants; the browser review covers behavior and presentation that static
+validation cannot prove. Run `npm run build:pages` only when refreshing the
+committed GitHub Pages compatibility export.
 
 ## Learning priorities for this repository
 
 1. **Now:** strings and falsehoods, security, UX/usability, SEO, and practices.
-2. **Next:** latency, browser memory, JavaScript internals, and architecture.
+2. **Next:** latency, browser memory, React and JavaScript internals, testing,
+   and frontend architecture.
 3. **Later:** distributed systems and platform engineering when a project has
    services, persistent data, or operational scale that requires them.
 
@@ -51,4 +53,3 @@ Adapted for this project's scope from
 [`mtdvio/every-programmer-should-know`](https://github.com/mtdvio/every-programmer-should-know),
 licensed under
 [CC BY 4.0](https://github.com/mtdvio/every-programmer-should-know/blob/master/LICENSE).
-
