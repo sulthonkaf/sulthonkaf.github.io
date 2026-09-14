@@ -34,7 +34,7 @@ Open `http://localhost:3000`.
 npm run check
 ```
 
-This runs type checking, linting, unit tests, and the production static export.
+This runs type checking, linting, unit tests, and the production static export. The project-specific [engineering knowledge checklist](docs/engineering-checklist.md) connects these automated checks to focused human review prompts and further reading.
 
 ## GitHub Pages publishing
 
