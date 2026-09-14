@@ -36,6 +36,9 @@ Then open `http://localhost:8000`.
 - Performance: no framework runtime, icon library, or animation dependency
 - Discoverability: canonical URL, Open Graph metadata, structured data, robots policy, and sitemap
 
+The project-specific [engineering knowledge checklist](docs/engineering-checklist.md)
+connects these principles to focused review prompts and further reading.
+
 ## Updating content
 
 - Edit project narratives and metrics in `index.html`
